@@ -1,0 +1,23 @@
+body{
+  background: #798079;
+}
+
+.pokemon-list{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px 20px;
+}
+
+.pokemon-item{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: #2298f3;
+}
